@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Assignment</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+        }
+        .header {
+            text-align: center;
+        }
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+            background: #ccc;  /* Fallback for older browsers */
+        }
+        .languages {
+            text-align: right;
+            margin-bottom: 20px;
+        }
+        .language-button {
+            padding: 5px 15px;
+            cursor: pointer;
+            font-size: 16px;
+            margin: 5px;
+        }
+        .section-title {
+            font-weight: bold;
+            margin-top: 20px;
+        }
+        .content {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="languages">
+        <button class="language-button" data-language="en">English</button>
+        <button class="language-button" data-language="km">ខ្មែរ</button>
+    </div>
+
+    <div id="cv-content">
+        <!-- Content in English by default -->
+        <div id="english">
+            <div class="header">
+                <!-- Profile Image -->
+                <img src="/Image/IMG_2384.JPG" alt="Profile Image" class="profile-img">
+                <h1>Ou Sambathpheakdey</h1>
+                <p>Email: kdey6345@gmail.com | Phone: 096 422 4084</p>
+                <p>Location: Phnom Penh, Cambodia</p>
+            </div>
+
+            <!-- Personal Data -->
+            <div class="section-title">Personal Data</div>
+            <div class="content">
+                <strong>Date of Birth:</strong> 4 August, 2003 <br>
+                <strong>Nationality:</strong> Cambodia <br>
+                <strong>Marital Status:</strong> Single
+            </div>
+
+            <!-- Education -->
+            <div class="section-title">Education</div>
+            <div class="content">
+                - 2023-Present Studying at Royal University of Phnom Penh<br>
+                - 2019-2021 Studying at Preas Sisowat High School<br>
+                - 2016-2019 Studying at Chak Tomuk Secondary School<br>
+                - 2010-2016 Studying at Chak Tomuk Primary School<br>
+            </div>
+
+            <!-- Work Experience -->
+            <div class="section-title">Work Experience</div>
+            <div class="content">
+                <strong>November 2024-Present Sales Executive (SoPhara shop)</strong><br>
+                - Count and prepare stock every day<br>
+                - Order new products to stock<br>
+                - Service customers<br>
+                - Help customers and work as a team<br>
+                <strong>August 2018-March 2020 Cashier in Restaurant (Saven Restaurant)</strong><br>
+                - Process transactions<br>
+                - Basic math skills<br>
+                - Communication skills<br>
+                - Friendly with customers<br>
+            </div>
+
+            <!-- Other Skills -->
+            <div class="section-title">Other Skills</div>
+            <div class="content">
+                Microsoft Word, Excel, PowerPoint, C/C++, HTML, CSS,<br>
+                JavaScript, React Js<br>
+            </div>
+
+            <!-- Interests -->
+            <div class="section-title">Interests</div>
+            <div class="content">
+                Reading books, Researching, Watching TV, Playing football, and<br>
+                Communicating with others<br>
+            </div>
+
+            <!-- References -->
+            <div class="section-title">References</div>
+            <div class="content">
+                Mr. Ou Sophara<br>
+                Store Supervisor, Sophara Shop<br>
+                Tel: 010 783 400<br>
+                Miss Ou Saven<br>
+                Restaurant, Saven Restaurant<br>
+                Tel: 015 995 123<br>
+            </div>
+        </div>
+
+        <!-- Content in Khmer -->
+        <div id="khmer" style="display:none;">
+            <div class="header">
+                <!-- Profile Image -->
+                <img src="/Image/IMG_2384.JPG" alt="Profile Image" class="profile-img">
+                <h1>អ៊ូ សម្បត្តិភ្កី</h1>
+                <p>Email: kdey6345@gmail.com | ទូរស័ព្ទ: 096 4224084</p>
+                <p>ទីតាំង: ភ្នំពេញ កម្ពុជា</p>
+            </div>
+
+            <!-- Personal Data -->
+            <div class="section-title">ទិន្នន័យផ្ទាល់ខ្លួន</div>
+            <div class="content">
+                <strong>ថ្ងៃខែឆ្នាំកំណើត:</strong> ៨ មេសា ២០០៣ <br>
+                <strong>សញ្ជាតិ:</strong> កម្ពុជា <br>
+                <strong>ស្ថានភាពការពារ:</strong> កំពុងនៅលីវ
+            </div>
+
+            <!-- Education -->
+            <div class="section-title">ការអប់រំ</div>
+            <div class="content">
+                - ២០២៣ បច្ចុប្បន្ន សិក្សាសាកលវិទ្យាល័យភូមិន្ទ <br>
+                - ២០១៩-២០២១ សិក្សាវិទ្យាល័យព្រះសុីសុវត្ថិ <br>
+                - ២០១៦-２０１９ សិក្សាបថមសិក្សាចតុមុខ<br>
+                - ２０１０-２０１６ សិក្សាមតេយ្យសិក្សាចតុមុខ
+            </div>
+
+            <!-- Work Experience -->
+            <div class="section-title">បទពិសោធន៍ការងារ</div>
+            <div class="content">
+                <strong>2024 បច្ចុប្បន្ន នាយកប្រតិបត្តិផ្នែកលក់ (Sophara Shop)</strong><br>
+                - រាប់និងរៀបចំស្តុកជារៀងរាល់ថ្ងៃ<br>
+                - បញ្ជាទិញផលិតផលថ្មីចូលស្តុក<br>
+                - ជួយអតិថិជន និងការងារជាក្រុម<br>
+                <strong>2018-2020 ផ្នែកគិតលុយ (Saven Restaurant)</strong><br>
+                - ជំនាញគណិតវិទ្យាមូលដ្ឋាន<br>
+                - ជំនាញទំនាក់ទំនង<br>
+                - រួសរាយរាក់ទាក់ជាមួយអតិថិជន<br>
+            </div>
+
+            <!-- Other Skills -->
+            <div class="section-title">ជំនាញផ្សេងៗ</div>
+            <div class="content">
+                - Microsoft Word, Excel, PowerPoint, C/C++, HTML, CSS,<br>
+                - JavaScript, React Js
+            </div>
+
+            <!-- Interests -->
+            <div class="section-title">ចំណាប់អារម្មណ៍</div>
+            <div class="content">
+                - អានសៀវភៅ<br>
+                - មើលទូរទស្សន៍<br>
+                - លេងបាល់ទាត់<br>
+                - ទំនាក់ទំនងជាមួយមនុស្សផ្សេងទៀត
+            </div>
+
+            <!-- References -->
+            <div class="section-title">ឯកសារយោង</div>
+            <div class="content">
+                លោក Ou Sophara<br>
+                Store Supervisor, Sophara Shop<br>
+                Tel: 010 783 400<br>
+                អ្នកនាង Ou Saven<br>
+                Restaurant, Saven Restaurant<br>
+                Tel: 015 995 123
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    // Switch Language Functionality
+    document.querySelectorAll('.language-button').forEach(button => {
+        button.addEventListener('click', function() {
+            var language = this.getAttribute('data-language');
+            if (language === 'en') {
+                document.getElementById('english').style.display = 'block';
+                document.getElementById('khmer').style.display = 'none';
+            } else {
+                document.getElementById('english').style.display = 'none';
+                document.getElementById('khmer').style.display = 'block';
+            }
+        });
+    });
+</script>
+
+</body>
+</html>
+
